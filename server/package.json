@@ -1,22 +1,32 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "A library of books for everyone",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Zach Hanson",
+  "license": "MIT",
   "dependencies": {
-    "bcrypt": "^4.0.1",
+    "apollo-server-express": "^3.6.6",
+    "bcrypt": "^5.0.0",
     "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^7.0.2"
+    "graphql": "^15.8.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^5.9.10"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZachITP/Zachs-Search-A-Book"
+  },
+  "bugs": {
+    "url": "https://github.com/ZachITP/Zachs-Search-A-Book/issues"
+  },
+  "homepage": "https://github.com/ZachITP/Zachs-Search-A-Book#readme"
 }

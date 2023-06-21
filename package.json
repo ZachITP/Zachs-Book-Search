@@ -1,7 +1,7 @@
 {
   "name": "googlebooks-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "- [Description](#description)\r - [Technology](#Technology)\r - [Installation](#installation)\r - [Usage](#usage)\r - [License](#license)\r - [Contribution](#contribution)\r - [Questions](#questions)",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -10,8 +10,8 @@
     "build": "cd client && npm run build"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Zach Hanson",
+  "license": "MIT",
   "devDependencies": {
     "concurrently": "^5.1.0"
   }
